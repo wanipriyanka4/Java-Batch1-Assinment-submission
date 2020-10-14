@@ -1,0 +1,28 @@
+
+//program ( Day-2 )assinment-1
+
+ class Employee
+ {  
+ int age;  
+ String name,city;  
+ }  
+class TestEmployee3
+{  
+ public static void main(String args[])
+ {  
+    
+  Employee e1=new Employee();  
+  Employee e2=new Employee();  
+   
+  e1.age=25;ss
+  e1.name="Wani";  
+  e1.city="shirpur";
+  
+  e2.age=30;  
+  e2.name="chhaya"; 
+  e2.city="dhule";
+   
+  System.out.println(e1.age+" "+e1.name+""+e1.city);  
+  System.out.println(e2.age+" "+e2.name+""+e2.city);  
+ }  
+}  
